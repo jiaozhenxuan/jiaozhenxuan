@@ -1,16 +1,15 @@
-## Hi there 👋
+# SHR-Net
 
-<!--
-**jiaozhenxuan/jiaozhenxuan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository provides a minimal public release for the SHR-Net hemorrhage segmentation study.
 
-Here are some ideas to get you started:
+## Included
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- `networks/shr_net.py`
+  - SHR-Net architecture implementation.
+- `stats/three_dataset_main_table_canonical.csv`
+  - Clean manuscript-aligned three-dataset main table for the 10 reported models.
+
+## Optional
+
+- `stats/three_dataset_stats_top10_paper_aligned_for_upload.csv`
+  - Extended statistics table. Some cells are intentionally left blank when local post-hoc statistics are unavailable or inconsistent with the repaired manuscript-facing result (e.g., the WNet HemSeg200 row).
